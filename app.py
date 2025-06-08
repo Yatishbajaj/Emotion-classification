@@ -13,15 +13,15 @@ if st.button("Predict Emotion"):
         prediction = model.predict([tweet])[0]
         #if prediction comment
         if(prediction == 0):
-            st.success(f"sad")
+            st.success(f"Predicted Emotion: sad")
         elif(prediction == 1):
-            st.success(f"joy")
+            st.success(f"Predicted Emotion: joy")
         elif(prediction == 2):
-            st.success(f"love")
+            st.success(f"Predicted Emotion: love")
         elif(prediction == 3):
-            st.success(f"anger")
+            st.success(f"Predicted Emotion: anger")
         elif(prediction == 4):
-            st.success(f"fear")
+            st.success(f"Predicted Emotion: fear")
         st.success(f"*Predicted Emotion:* {prediction}")
     else:
         st.warning("Please enter a tweet.")
