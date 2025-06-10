@@ -1,6 +1,6 @@
 # Tweet Emotion Classification
 
-A AIML project that classifies the emotion that you carry with your tweet
+A AI/ML project that classifies the emotion that you carry with your tweet
 
 ## Dataset
 
